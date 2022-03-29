@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Page title</title>
+				
+				<style>
+								
+								
+								*{
+    margin: 0;
+    padding: 0;
+    }
+.main{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 0px;
+    }
+.calc-head{
+    position: relative;
+    width: 100%;
+}
+#calc-input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    background-color: aqua;
+    border: 0px;
+    margin-bottom: 5px;
+    }
+.calc-body{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    }
+.btn{
+    position: relative;
+    width: 25%;
+    margin: 0px;
+    padding: 0px;
+    height: 75px;
+    font-size: 20px;
+    font-weight: bold;
+    background: black;
+    color: aqua;
+    border: 0px;
+    }
+.btn:focus{
+    background-color: chartreuse;
+    }
+								
+								
+				</style>
+</head>
+<body>
+				
+				<div class="main">
+								<div class="calc-head">
+												<input type="number" maxlength="10" id="calc-input">
+								</div>
+								
+								<div class="calc-body">
+												<input type="button" class="btn" value="C">
+												<input type="button" class="btn" value="del">
+												<input type="button" class="btn" value="×">
+												<input type="button" class="btn" value="÷">
+								</div>
+								
+								<div class="calc-body">
+												<input type="button" class="btn" value="7">
+												<input type="button" class="btn" value="8">
+												<input type="button" class="btn" value="9">
+												<input type="button" class="btn" value="-">
+								</div>
+								
+								<div class="calc-body">
+												<input type="button" class="btn" value="4">
+												<input type="button" class="btn" value="5">
+												<input type="button" class="btn" value="6">
+												<input type="button" class="btn" value="+">
+								</div>
+								
+								<div class="calc-body">
+												<input type="button" class="btn" value="1">
+												<input type="button" class="btn" value="2">
+												<input type="button" class="btn" value="3">
+												<input type="button" class="btn" value="=">
+								</div>
+								
+				</div>
+				
+</body>
+</html>
